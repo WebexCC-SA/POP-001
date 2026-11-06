@@ -291,6 +291,7 @@
         transform: translate(-50%, -50%);
         width: min(72%, 610px);
         height: auto;
+        flex-direction: column;
     }
 
     .event img {
@@ -322,7 +323,8 @@
 
                    
                     <!-- <img src="template_assets/webex-3d-symbol-color(1).png" draggable="false"> -->
-                    <div class="event"><img src="template_assets/wx1_26_text.svg" draggable="false"></div>
+                    <div class="event"><img src="template_assets/education_white.svg" draggable="false" style="width: 50%; left: 25%; position: relative;">
+                        <img src="template_assets/Picture3.svg" draggable="false"></div>
                     <!-- <div id="five" class="hold event">{{config.extra.site_event}}</div> -->
 
                 </div>
@@ -332,14 +334,14 @@
                         document.write(descr)
                     </script>
                 </p> -->
-                <!-- <div><a href="overview/" title="{{ page.next_page.title | striptags }}"
-                        class="md-button md-button--primary">
-                        Get started
-                    </a></div> -->
-                    <div><a href="welcome/" title="{{ page.next_page.title | striptags }}"
+                <div><a href="overview/" title="{{ page.next_page.title | striptags }}"
                         class="md-button md-button--primary">
                         Get started
                     </a></div>
+                    <!-- <div><a href="welcome/" title="{{ page.next_page.title | striptags }}"
+                        class="md-button md-button--primary">
+                        Get started
+                    </a></div> -->
             </div>
         </div>
     </div>

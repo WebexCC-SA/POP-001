@@ -1,6 +1,6 @@
-# Lab Guide for WebexOne Lab LABXXX-1234
+# Lab Guide for Pop Up Learning
 
-Web guide link: https://kevsimps.github.io/wx1_26/
+Web guide link: https://webexcc-sa.github.io/POP-001
 
 
 ## DOCX to Markdown script
